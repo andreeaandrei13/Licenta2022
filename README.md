@@ -3,7 +3,8 @@
 **Achizitia ti analiza datelor dependente de timp**
 
      Acest proiect are ca si scop realizarea unor reprezentari de tip Time-Series cu ajutorul limbajului de programare Python si a bazei de date InfluxDB.
-In cadrul proiectului se va regasi scrierea datelor din mai multe fisiere CSV in baza de date, realizarea reprezentarii pe harta a antenelor cu ajutorul 
+
+     In cadrul proiectului se va regasi scrierea datelor din mai multe fisiere CSV in baza de date, realizarea reprezentarii pe harta a antenelor cu ajutorul 
 unui fisier GEOJSON, care prezinta coordonatele geografice a acestra, dar si realizarea unor rapoarte care pot reprezenta situatii ipotetice. 
      Datele folosite sunt pentru o saptamana de înregistrari cu detaliile apelurilor din orasele Milano si provincial Trentino (Italia), astfel de fiecare data 
 cand un utilizator angajeaza o interactiune de telecomunicatii, o stație radio de baza (RBS) este alocata de catre operator si ofera comunicatia prin retea. 
@@ -22,7 +23,7 @@ internet.
 - Analiza
 - Predictii
 
-    De asemenea, codul este si el structurat in urmatori pasi:
+***Codul este si el structurat in urmatori pasi:***
     
 - Importarea bibliotecilor necesate
 - Realizarea conexiunii cu baza de date (InfluxDB)
